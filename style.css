@@ -1,6 +1,7 @@
 /* ===== CSS Variables ===== */
 :root {
     --black: #050505;
+    --yt: #FF0000;
     --dark-blue: #0a1128;
     --mid-blue: #1c3879;
     --neon-blue: #00f0ff;
@@ -161,6 +162,29 @@ nav {
     background: transparent;
     color: var(--neon-blue);
     box-shadow: 0 0 30px var(--neon-blue) inset, 0 0 30px var(--neon-blue);
+}
+
+/* ===== Buttons2 ===== */
+.btn2 {
+    display: inline-block;
+    padding: 15px 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: var(--black);
+    background: var(--yt);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid var(--yt);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px var(--yt);
+}
+
+.btn2:hover {
+    background: transparent;
+    color: var(--yt);
+    box-shadow: 0 0 30px var(--yt) inset, 0 0 30px var(--yt);
 }
 
 /* ===== Animations ===== */
